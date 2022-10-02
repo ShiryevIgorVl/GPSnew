@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity(), LocListenerInterfase {
 
     }
 
+    //Инициализируем менеджер локациии и подключаем setLocListenerInterface у классу MyLocatiion
     private fun initGPSServis() {
         locationManager = getSystemService(Context.LOCATION_SERVICE) as LocationManager
         myLocation = MyLocation()
